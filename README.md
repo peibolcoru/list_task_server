@@ -27,6 +27,7 @@
   - [_Configuración y desarrollo_](#configuración-y-desarrollo)
 - [🏁 Empecemos ](#-empecemos-)
   - [_Instalacion_](#instalacion)
+- [🚀 Tests  ](#-tests--)
 - [🚀 Despliegue  ](#-despliegue--)
 - [✋ Autor ](#-autor-)
 
@@ -88,6 +89,11 @@ Los modelos de interacción con la Base de Datos en la carpeta "models".
 * Crea la BD.
 
   <span style="color:red">npm run initDb
+
+## 🚀 Tests <a name = "tests"></a> </span>
+
+Para la realización de los test se ha utilizado Potsman.  
+Se ha añadido un archivo json a la **_carpeta "postman"_** con las peticiones a la API para poder realizar la pruebas.
 
 ## 🚀 Despliegue <a name = "despliegue"></a> </span>
 
