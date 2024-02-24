@@ -53,11 +53,11 @@ API RESTful para una prueba técnica, que consiste en la creación de una lista 
 
  Uso de la metodología CRUD para la definifición de los endpoints necesarios para "tasks":
 
-  Creacion: POST -- http://localhost:8000/tasks/new   
-  Lectura de una tarea: GET --- http://localhost:8000/tasks/task/:taskId  
-  Lectura de todas las tareas: GET --- http://localhost:8000/tasks  
-  Actualizado de la tarea: PUT --- http://localhost:8000/tasks/update/:taskId
-  Borrado de la tarea: DELETE --- http://localhost:8000/tasks/delete/:taskId
+  Creacion: POST -- http://serverdirection/tasks/new   
+  Lectura de una tarea: GET --- http://serverdirection/tasks/task/:taskId  
+  Lectura de todas las tareas: GET --- http://serverdirection/tasks  
+  Actualizado de la tarea: PUT --- http://serverdirection/tasks/update/:taskId
+  Borrado de la tarea: DELETE --- http://serverdirection/tasks/delete/:taskId
 
 ### _Configuración y desarrollo_
 
