@@ -113,4 +113,4 @@ Add additional notes about how to deploy this on a live system.
 - GITHUB: [@peibolcoru](https://github.com/peibolcoru) 
 - LINKEDIN: https://www.linkedin.com/in/pablo-ferreno-veiga/
 - YOUTUBE: [@PabloFerreno](https://www.youtube.com/channel/UCayLZMzKTYX-B-qDRldXhRg)
-  
+- API desplegada: http://mylist-env.eba-gsf7r3rx.eu-north-1.elasticbeanstalk.com/
