@@ -88,7 +88,12 @@ Los modelos de interacción con la Base de Datos en la carpeta "models".
 
 * Crea la BD.
 
-  <span style="color:red">npm run initDb
+  <span style="color:red">npm run initD
+  
+* Lanza la API.
+
+  <span style="color:red">npm run dev
+
 
 ## 🚀 Tests <a name = "tests"></a> </span>
 
