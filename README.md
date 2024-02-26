@@ -105,12 +105,30 @@ Se ha añadido un archivo json a la **_carpeta "postman"_** con archivos .json p
 
 ## 🚀 Despliegue <a name = "despliegue"></a> </span>
 
-Add additional notes about how to deploy this on a live system.
+  * CREACCION DE LA BD CON AWS RDS:  
+
+    Se ha creado una BD en AWS a través del servicio de RDS utilizando el motor MySQL Community. 
+  El usuario, contraseña, nombre de la base de datos y el host o punto de acceso a la mismas, serán los usados posteriormente en las variables de entorno de la API.  (Recordar que la carpeta bd contien el archivo initDb.js para la inicialización o reseteo de la BD).
+
+  * CREACION DEL SERVIDOR CON ELASTIC BEANSTALK:  
+    Se crea una aplicación configurando el entorno de la misma en la plataforma de Node.js y subiendo un archivo.zip que contienen todos lo aechivos de la API.  
+    Se crean un roles atraves de AWS IAM para EC2 y posteriormente otro rol para elastic Beanstalk. 
+    Finalmente se añaden las variables de entorno que permiten una comunicación segura con la base de datos creada, además del puerto de comunicaión de la API.
+    + MYSQL_HOST=  
+    + MYSQL_USER=  
+    + MYSQL_PASS=  
+    + MYSQL_DB=  
+    + PORT=
+  
+  De esta manera quedaria configurada la instancia:
+  
+  API desplegada: http://mylist-env.eba-gsf7r3rx.eu-north-1.elasticbeanstalk.com/
+
 
 
 ## ✋ Autor <a name = "autor"></a>
 
-- GITHUB: [@peibolcoru](https://github.com/peibolcoru) 
+- GITHUB: [@peibolcoru](https://github.com/peibolcoru/list_task_server) 
 - LINKEDIN: https://www.linkedin.com/in/pablo-ferreno-veiga/
 - YOUTUBE: [@PabloFerreno](https://www.youtube.com/channel/UCayLZMzKTYX-B-qDRldXhRg)
 - API desplegada: http://mylist-env.eba-gsf7r3rx.eu-north-1.elasticbeanstalk.com/
